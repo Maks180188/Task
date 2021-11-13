@@ -5,10 +5,12 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
+// Bootstrap 4.1.1
 @import '~bootstrap/scss/bootstrap';
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css');
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+// DataTable Bootstrap
+@import url('https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css');
+@import url('https://cdn.datatables.net/buttons/1.3.1/css/buttons.bootstrap.min.css');
+
