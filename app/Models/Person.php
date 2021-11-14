@@ -28,7 +28,7 @@ class Person extends Model
         'name' => 'string',
         'last_name' => 'string',
         'string' => 'string',
-        'date_of_birth' => 'date',
+        'date_of_birth' => 'date:d-m-Y',
     ];
 
     /**

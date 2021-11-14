@@ -31,6 +31,11 @@
 <div id="app">
 <h1>Persons</h1>
     <div class="content">
+{{--        <form action="/persons/import" method="post" enctype="multipart/form-data">--}}
+{{--            @csrf--}}
+{{--            <input type="file" name="files">--}}
+{{--            <input type="submit">--}}
+{{--        </form>--}}
 <persons-component></persons-component>
     </div>
 </div>
@@ -38,6 +43,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="{{ asset('js/app.js') }}"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 
 {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js" integrity="sha512-4ze/a9/4jqu+tX9dfOqJYSvyYd5M6qum/3HpCLr+/Jqf0whc37VUbkpNGHR7/8pSnCFw47T1fmIpwBV7UySh3g==" crossorigin="anonymous"></script>--}}
 {{--<script src="https://cdn.datatables.net/buttons/1.3.1/js/dataTables.buttons.min.js"></script>--}}

@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('getPersons', 'ManKindController@getPersons');
+Route::get('getMalePercent', 'ManKindController@getMalePercent');
+Route::post('persons/import', 'ManKindController@importPersons');
