@@ -1,5 +1,7 @@
 <?php
 
+use Interfaces\ObjectHandlerInterface;
+
 class SomeObject {
     protected $name;
 
@@ -10,7 +12,7 @@ class SomeObject {
     }
 }
 
-class SomeObjectsHandler {
+class SomeObjectsHandler implements ObjectHandlerInterface {
     public function __construct() { }
 
     public function handleObjects(array $objects): array {
